@@ -14,3 +14,26 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/show/{id}', [
+    'as' => 'show', 'uses' => 'UserController@show'
+]);
+
+Route::get('/insert/', [
+    'as' => 'insert', 'uses' => 'UserController@insert'
+]);
+
+Route::get('/update/{id}', [
+    'as' => 'update', 'uses' => 'UserController@update'
+]);
+
+Route::get('/delete/{id}', [
+    'as' => 'delete', 'uses' => 'UserController@delete'
+]);
+
+Route::get('/showall/', [
+    'as' => 'showall', 'uses' => 'UserController@showall'
+]);
+
+
+
