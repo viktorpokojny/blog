@@ -11,6 +11,8 @@ DB_DATABASE
 DB_USERNAME
 DB_PASSWORD
 
+Táto istá databáza je použitá aj v nasledujúcom cvičení.
+
 4. Do URL vyhľadávača v prehliadači teraz môžete pristúpiť na adresy: 
 
 localhost/projekt/public/show/{id}
